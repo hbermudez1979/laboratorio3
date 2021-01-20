@@ -67,7 +67,7 @@ namespace Dotnet_Backend
                     await context.Response.WriteAsJsonAsync<object[]>(
                         new object[]{
                         "Hello",
-                        "World","Heinner Bermudez Araya"
+                        "World","Heinner","Bermudez","Araya"
                     });
                 });
 
